@@ -1,0 +1,30 @@
+p {
+  color: rgb(60,20,30)
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+#selected {
+  background-color: white;
+  color: black;
+}
+li a:hover {
+    transition-duration: 0.5s;
+    background-color: #111;
+}
